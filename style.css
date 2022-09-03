@@ -368,10 +368,7 @@ input {
     flex-direction: column;
     align-content: flex-start;
   }
-  .select_lang {
-    visibility: hidden;
-    height: 0px;
-  }
+
   .my_photo {
     height: 478px;
     padding: 0;
@@ -424,7 +421,13 @@ input {
     visibility: visible;
     left: 100px;
   }
-
+  /* #menu__toggle:checked ~ .select_lang {
+    visibility: visible;
+  } */
+  .select_lang {
+    visibility: hidden;
+    height: 0px;
+  }
   .menu__btn {
     display: flex;
     align-items: center;
@@ -458,7 +461,7 @@ input {
 
   .navigation {
     display: block;
-    position: fixed;
+    position: absolute;
     visibility: hidden;
     top: 0;
     left: 100%;
