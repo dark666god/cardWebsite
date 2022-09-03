@@ -1,10 +1,10 @@
 @font-face {
   font-family: Gilroy-Bold;
-  src: url("../fonts/Gilroy-Bold.woff2");
+  src: url("fonts/Gilroy-Bold.woff2");
 }
 @font-face {
   font-family: Gilroy-Medium;
-  src: url("../fonts/Gilroy-Medium.woff");
+  src: url("fonts/Gilroy-Medium.woff");
 }
 * {
   margin: 0px;
@@ -218,7 +218,7 @@ main {
 
 .site_created {
   display: flex;
-  background-image: url("../img/site-1.svg");
+  background-image: url("img/site-1.svg");
   background-repeat: no-repeat;
   margin: 0 auto;
   height: 510px;
@@ -249,7 +249,7 @@ main {
 }
 .site_created-2 {
   display: flex;
-  background-image: url("../img/reebok_website-2.svg");
+  background-image: url("img/reebok_website-2.svg");
   background-repeat: no-repeat;
   margin: 0 auto;
   height: 510px;
@@ -262,7 +262,7 @@ main {
 }
 .site_created-3 {
   display: flex;
-  background-image: url("../img/reebok_website-3.svg");
+  background-image: url("img/reebok_website-3.svg");
   background-repeat: no-repeat;
   margin: 0 auto;
   height: 510px;
@@ -386,18 +386,18 @@ input {
     margin-bottom: 0px;
   }
   .site_created {
-    background-image: url("../img/imgMob.svg");
+    background-image: url("img/imgMob.svg");
     margin-top: 65px;
     height: 406px;
   }
   .site_created-2 {
-    background-image: url("../img/reebok_webmob.svg");
+    background-image: url("img/reebok_webmob.svg");
     margin: 0 auto;
     height: 406px;
     width: 317px;
   }
   .site_created-3 {
-    background-image: url("../img/reebok_webmob-2.svg");
+    background-image: url("img/reebok_webmob-2.svg");
     margin: 0 auto;
     height: 406px;
     width: 317px;
