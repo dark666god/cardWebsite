@@ -7,7 +7,7 @@
   src: url("fonts/Gilroy-Medium.woff");
 }
 * {
-  margin: 0px;
+  margin: 0px auto;
   padding: 0px;
   max-width: 1445px;
   width: 100%;
